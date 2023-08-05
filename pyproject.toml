@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "enterprise-search"
+version = "0.1.0"
+description = ""
+authors = ["Debapriya Das <debapriya.das@segment.com>"]
+readme = "README.md"
+packages = [{include = "enterprise_search"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+uvicorn = "^0.23.2"
+gunicorn = "^21.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
